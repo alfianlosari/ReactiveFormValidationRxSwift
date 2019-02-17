@@ -7,21 +7,51 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B310E9B22193D1200E5083D /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310E9A22193D1200E5083D /* FormViewModel.swift */; };
+		8B310E9D22198EE400E5083D /* FormDatePickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310E9C22198EE400E5083D /* FormDatePickerTableViewCell.swift */; };
+		8B310EA42219B1E500E5083D /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EA32219B1E500E5083D /* UITableViewCell+Extension.swift */; };
+		8B310EA72219B23300E5083D /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EA62219B23300E5083D /* Validator.swift */; };
+		8B310EA92219B25D00E5083D /* ValidationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EA82219B25D00E5083D /* ValidationError.swift */; };
+		8B310EAB2219B28200E5083D /* NameValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EAA2219B28200E5083D /* NameValidator.swift */; };
+		8B310EAD2219B29800E5083D /* EmailValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EAC2219B29800E5083D /* EmailValidator.swift */; };
+		8B310EAF2219B2AA00E5083D /* MobileNumberValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EAE2219B2AA00E5083D /* MobileNumberValidator.swift */; };
+		8B310EB12219B2BE00E5083D /* BirthDateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EB02219B2BE00E5083D /* BirthDateValidator.swift */; };
+		8B310EB32219B83E00E5083D /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B310EB22219B83E00E5083D /* Utility.swift */; };
 		8B4DEDEA22190DB50039642A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEDE922190DB50039642A /* AppDelegate.swift */; };
-		8B4DEDEC22190DB50039642A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEDEB22190DB50039642A /* ViewController.swift */; };
 		8B4DEDEF22190DB50039642A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DEDED22190DB50039642A /* Main.storyboard */; };
 		8B4DEDF122190DB50039642A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DEDF022190DB50039642A /* Assets.xcassets */; };
 		8B4DEDF422190DB50039642A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DEDF222190DB50039642A /* LaunchScreen.storyboard */; };
+		8B4DEDFC221914C00039642A /* FormTextFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEDFB221914C00039642A /* FormTextFieldTableViewCell.swift */; };
+		8B4DEDFE221915410039642A /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEDFD221915410039642A /* FormViewController.swift */; };
+		8B4DEE04221917A30039642A /* FormFieldViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEE03221917A30039642A /* FormFieldViewModel.swift */; };
+		8B4DEE06221917B60039642A /* FormFieldType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DEE05221917B60039642A /* FormFieldType.swift */; };
+		AAC3B45008C4F0D5E73FD93E /* Pods_ReactiveValidationRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8342898007D75F0A38088EFB /* Pods_ReactiveValidationRxSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8342898007D75F0A38088EFB /* Pods_ReactiveValidationRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReactiveValidationRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B310E9A22193D1200E5083D /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
+		8B310E9C22198EE400E5083D /* FormDatePickerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormDatePickerTableViewCell.swift; sourceTree = "<group>"; };
+		8B310EA32219B1E500E5083D /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		8B310EA62219B23300E5083D /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		8B310EA82219B25D00E5083D /* ValidationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationError.swift; sourceTree = "<group>"; };
+		8B310EAA2219B28200E5083D /* NameValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameValidator.swift; sourceTree = "<group>"; };
+		8B310EAC2219B29800E5083D /* EmailValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailValidator.swift; sourceTree = "<group>"; };
+		8B310EAE2219B2AA00E5083D /* MobileNumberValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileNumberValidator.swift; sourceTree = "<group>"; };
+		8B310EB02219B2BE00E5083D /* BirthDateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthDateValidator.swift; sourceTree = "<group>"; };
+		8B310EB22219B83E00E5083D /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		8B4DEDE622190DB50039642A /* ReactiveValidationRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveValidationRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B4DEDE922190DB50039642A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B4DEDEB22190DB50039642A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8B4DEDEE22190DB50039642A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8B4DEDF022190DB50039642A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4DEDF322190DB50039642A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B4DEDF522190DB50039642A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4DEDFB221914C00039642A /* FormTextFieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTextFieldTableViewCell.swift; sourceTree = "<group>"; };
+		8B4DEDFD221915410039642A /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		8B4DEE03221917A30039642A /* FormFieldViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldViewModel.swift; sourceTree = "<group>"; };
+		8B4DEE05221917B60039642A /* FormFieldType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFieldType.swift; sourceTree = "<group>"; };
+		8FCC33F18015C1FBA6310E74 /* Pods-ReactiveValidationRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveValidationRxSwift.release.xcconfig"; path = "Target Support Files/Pods-ReactiveValidationRxSwift/Pods-ReactiveValidationRxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		C6D34C3319ED25257EC09FF7 /* Pods-ReactiveValidationRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveValidationRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-ReactiveValidationRxSwift/Pods-ReactiveValidationRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +59,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAC3B45008C4F0D5E73FD93E /* Pods_ReactiveValidationRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7516D27B20BEA1EA9AE59CF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6D34C3319ED25257EC09FF7 /* Pods-ReactiveValidationRxSwift.debug.xcconfig */,
+				8FCC33F18015C1FBA6310E74 /* Pods-ReactiveValidationRxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8B310E9E2219B0FC00E5083D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DEDFB221914C00039642A /* FormTextFieldTableViewCell.swift */,
+				8B310E9C22198EE400E5083D /* FormDatePickerTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8B310E9F2219B11800E5083D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B310E9A22193D1200E5083D /* FormViewModel.swift */,
+				8B4DEE03221917A30039642A /* FormFieldViewModel.swift */,
+				8B4DEE05221917B60039642A /* FormFieldType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8B310EA02219B12900E5083D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DEDED22190DB50039642A /* Main.storyboard */,
+				8B4DEDF022190DB50039642A /* Assets.xcassets */,
+				8B4DEDF222190DB50039642A /* LaunchScreen.storyboard */,
+				8B4DEDF522190DB50039642A /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B310EA12219B15300E5083D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DEDFD221915410039642A /* FormViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8B310EA22219B1CB00E5083D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				8B310EA32219B1E500E5083D /* UITableViewCell+Extension.swift */,
+				8B310EB22219B83E00E5083D /* Utility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		8B310EA52219B20700E5083D /* Validators */ = {
+			isa = PBXGroup;
+			children = (
+				8B310EA62219B23300E5083D /* Validator.swift */,
+				8B310EA82219B25D00E5083D /* ValidationError.swift */,
+				8B310EAA2219B28200E5083D /* NameValidator.swift */,
+				8B310EAC2219B29800E5083D /* EmailValidator.swift */,
+				8B310EAE2219B2AA00E5083D /* MobileNumberValidator.swift */,
+				8B310EB02219B2BE00E5083D /* BirthDateValidator.swift */,
+			);
+			path = Validators;
+			sourceTree = "<group>";
+		};
 		8B4DEDDD22190DB50039642A = {
 			isa = PBXGroup;
 			children = (
 				8B4DEDE822190DB50039642A /* ReactiveValidationRxSwift */,
 				8B4DEDE722190DB50039642A /* Products */,
+				7516D27B20BEA1EA9AE59CF5 /* Pods */,
+				DCAFEFE0EDC9F4C2E50AE9CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +157,22 @@
 			isa = PBXGroup;
 			children = (
 				8B4DEDE922190DB50039642A /* AppDelegate.swift */,
-				8B4DEDEB22190DB50039642A /* ViewController.swift */,
-				8B4DEDED22190DB50039642A /* Main.storyboard */,
-				8B4DEDF022190DB50039642A /* Assets.xcassets */,
-				8B4DEDF222190DB50039642A /* LaunchScreen.storyboard */,
-				8B4DEDF522190DB50039642A /* Info.plist */,
+				8B310E9E2219B0FC00E5083D /* Cells */,
+				8B310EA12219B15300E5083D /* Controllers */,
+				8B310E9F2219B11800E5083D /* Models */,
+				8B310EA02219B12900E5083D /* Resources */,
+				8B310EA22219B1CB00E5083D /* Utilities */,
+				8B310EA52219B20700E5083D /* Validators */,
 			);
 			path = ReactiveValidationRxSwift;
+			sourceTree = "<group>";
+		};
+		DCAFEFE0EDC9F4C2E50AE9CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8342898007D75F0A38088EFB /* Pods_ReactiveValidationRxSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +182,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B4DEDF822190DB50039642A /* Build configuration list for PBXNativeTarget "ReactiveValidationRxSwift" */;
 			buildPhases = (
+				A87C81C2CB4BE03C3F93F021 /* [CP] Check Pods Manifest.lock */,
 				8B4DEDE222190DB50039642A /* Sources */,
 				8B4DEDE322190DB50039642A /* Frameworks */,
 				8B4DEDE422190DB50039642A /* Resources */,
+				5D7340BDCA47D4EBD6949673 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +243,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5D7340BDCA47D4EBD6949673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ReactiveValidationRxSwift/Pods-ReactiveValidationRxSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactiveValidationRxSwift/Pods-ReactiveValidationRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A87C81C2CB4BE03C3F93F021 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ReactiveValidationRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B4DEDE222190DB50039642A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B4DEDEC22190DB50039642A /* ViewController.swift in Sources */,
+				8B4DEE04221917A30039642A /* FormFieldViewModel.swift in Sources */,
+				8B310EA92219B25D00E5083D /* ValidationError.swift in Sources */,
+				8B310EA72219B23300E5083D /* Validator.swift in Sources */,
+				8B4DEDFC221914C00039642A /* FormTextFieldTableViewCell.swift in Sources */,
+				8B310EB12219B2BE00E5083D /* BirthDateValidator.swift in Sources */,
+				8B310EB32219B83E00E5083D /* Utility.swift in Sources */,
+				8B310E9D22198EE400E5083D /* FormDatePickerTableViewCell.swift in Sources */,
+				8B310EAF2219B2AA00E5083D /* MobileNumberValidator.swift in Sources */,
+				8B310EAD2219B29800E5083D /* EmailValidator.swift in Sources */,
+				8B310EA42219B1E500E5083D /* UITableViewCell+Extension.swift in Sources */,
+				8B4DEDFE221915410039642A /* FormViewController.swift in Sources */,
+				8B310EAB2219B28200E5083D /* NameValidator.swift in Sources */,
+				8B4DEE06221917B60039642A /* FormFieldType.swift in Sources */,
 				8B4DEDEA22190DB50039642A /* AppDelegate.swift in Sources */,
+				8B310E9B22193D1200E5083D /* FormViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,11 +455,12 @@
 		};
 		8B4DEDF922190DB50039642A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D34C3319ED25257EC09FF7 /* Pods-ReactiveValidationRxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C2XD9H2JS;
-				INFOPLIST_FILE = ReactiveValidationRxSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactiveValidationRxSwift/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,11 +474,12 @@
 		};
 		8B4DEDFA22190DB50039642A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FCC33F18015C1FBA6310E74 /* Pods-ReactiveValidationRxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5C2XD9H2JS;
-				INFOPLIST_FILE = ReactiveValidationRxSwift/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/ReactiveValidationRxSwift/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
